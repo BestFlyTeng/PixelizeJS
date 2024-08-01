@@ -1,6 +1,8 @@
 # PixelizeJS
 处理图片
-
+## Methods
+### withIsSaveImages
+,,,
 ## Examples
         let files = document.querySelector("#files")
         // 显示到 .container
