@@ -1,9 +1,7 @@
-PixelizeJS
-===
+# PixelizeJS
 处理图片
 
-Examples
----
+## Examples
 let files = document.querySelector("#files")
 let dom = document.querySelector(".container");
 let pix = new PixelizeJS()
