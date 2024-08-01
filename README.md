@@ -5,6 +5,10 @@
         接收两个参数
         第一个参数是文件数组
         第二个参数是一个回调函数，回调函数接收类的this对象
+        pix.withIsSaveImages(files,(result)=>{
+            // 现在可以用result链式调用了
+            console.log(result)
+        })
 ## Examples
         let files = document.querySelector("#files")
         // 显示到 .container
