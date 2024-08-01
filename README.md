@@ -1,6 +1,9 @@
 # PixelizeJS
 批量处理图片，需要完善功能或添加功能的请在 Issues 里提问<br>
 Batch processing of images, need to improve the function or add features please ask in Issues
+只需在head里引入PixelizeJS就可以使用了！
+Just introduce PixelizeJS in the head and you're ready to go!
+<script src="./js/PixelizeJS.js"></script>
 ## Methods
 ### withIsSaveImages 存取到类中要修改的图片
         接收两个参数
