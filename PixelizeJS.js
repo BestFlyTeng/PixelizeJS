@@ -147,7 +147,7 @@ class PixelizeJS {
 
     /**
      * 设置饱和度
-     * @param saturate - 正常为 1 , [0]
+     * @param saturate - 正常为 1
      * @param index - 要修改的图片的索引，默认全部修改
      * */
     setSaturate(saturate = 1, index = []) {
@@ -166,14 +166,3 @@ class PixelizeJS {
     }
 
 }
-
-let files = document.querySelector("#files")
-let dom = document.querySelector(".container");
-let pix = new PixelizeJS()
-files.addEventListener("change", () => {
-    let file = files.files
-    pix.withIsSaveImages(file, (result) => {
-        result
-            .showImages(dom)
-    })
-})
