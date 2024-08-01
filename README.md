@@ -1,5 +1,6 @@
 # PixelizeJS
-批量处理图片，需要完善功能或添加功能的请在 Issues 里提问
+批量处理图片，需要完善功能或添加功能的请在 Issues 里提问<br>
+Batch processing of images, need to improve the function or add features please ask in Issues
 ## Methods
 ### withIsSaveImages 存取到类中要修改的图片
         接收两个参数
