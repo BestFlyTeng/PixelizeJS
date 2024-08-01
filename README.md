@@ -2,7 +2,9 @@
 处理图片
 ## Methods
 ### withIsSaveImages
-,,,
+接收两个参数
+第一个参数是文件数组
+第二个参数是一个回调函数，回调函数接收类的this对象
 ## Examples
         let files = document.querySelector("#files")
         // 显示到 .container
