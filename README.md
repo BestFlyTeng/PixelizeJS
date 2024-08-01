@@ -1,5 +1,5 @@
 # PixelizeJS
-处理图片
+批量处理图片
 ## Methods
 ### withIsSaveImages 存取到类中要修改的图片
         接收两个参数
